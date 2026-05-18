@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+import {type NextConfig} from 'next'
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
+  // If hosted at https://username.github.io/repo-name/
+  basePath: process.env.NODE_ENV === 'production' ? '/zachs-blog' : '',
+  trailingSlash: true, // GitHub Pages prefers this
 };
 
-export default nextConfig;
+module.exports = nextConfig;

@@ -6,6 +6,11 @@ const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
   // Override default ignores of eslint-config-next.
+  {
+    rules: {
+      '@next/next/no-img-element': 'off', // Change to 'warn' or 'off' as needed
+    },
+  },
   globalIgnores([
     // Default ignores of eslint-config-next:
     ".next/**",
