@@ -1,3 +1,3 @@
 # Zach's Blog
 
-Personal website and blog posts
+Personal website and blog posts.
