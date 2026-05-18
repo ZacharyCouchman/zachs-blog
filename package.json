@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && bash gh-pages-repo-prefix-replace.sh",
     "start": "next start",
     "lint": "eslint"
   },

@@ -64,7 +64,7 @@ export default async function Profile() {
           <div className="flex items-center gap-2">
             <img
               alt="LinkedIn icon"
-              src="/icon/linkedin-svgrepo-com.svg"
+              src="/img/linkedin-svgrepo-com.svg"
               height={20}
               width={20}
               className="dark:bg-white rounded-sm"
@@ -81,14 +81,14 @@ export default async function Profile() {
           <div className="flex items-center gap-2">
             <img
               alt="GitHub icon"
-              src="/icon/GitHub_Invertocat_Black.svg"
+              src="/img/GitHub_Invertocat_Black.svg"
               height={20}
               width={20}
               className="block dark:hidden"
             />
             <img
               alt="GitHub icon"
-              src="/icon/GitHub_Invertocat_White.svg"
+              src="/img/GitHub_Invertocat_White.svg"
               height={20}
               width={20}
               className="hidden dark:block"
