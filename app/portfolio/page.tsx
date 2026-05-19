@@ -1,6 +1,6 @@
 export default async function Portfolio() {
   return (
-    <div className="flex-1 p-6">
+    <div className="flex-1 lg:p-6">
       <h2 className="font-semibold text-4xl">Portfolio</h2>
       <hr className="text-muted-background mb-3" />
       <p>Below is a list of the projects that I have worked on:</p>
@@ -13,7 +13,7 @@ export default async function Portfolio() {
         such as token swaps, token bridges (to and from Ethereum), fiat onramps
         and a Smart NFT Checkout flow for easy purchases.
       </p>
-      <div className="flex sm:grid sm:grid-cols-2 xl:grid-cols-3 justify-center gap-4 py-4 my-4 ">
+      <div className="grid sm:grid-cols-2 xl:grid-cols-3 justify-center gap-4 py-4 my-4 ">
         <div className="flex flex-col items-center gap-2">
           <img
             className="rounded-md"

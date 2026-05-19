@@ -5,7 +5,7 @@ import { PostPreview } from "@/types";
 export default async function Posts() {
   const posts = await getPostPreviews();
   return (
-    <div className="flex-1 p-6">
+    <div className="flex-1 lg:p-6">
       <h2 className="font-semibold text-4xl mb-2">Posts</h2>
       <hr className="text-muted-background mb-3" />
       <ul className="flex flex-col gap-6">

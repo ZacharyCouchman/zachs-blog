@@ -1,6 +1,6 @@
 export default async function About() {
   return (
-    <div className="mt-6 p-6">
+    <div className="mt-6 lg:p-6">
       <h2 className="font-semibold text-4xl">About</h2>
       <hr className="text-muted-background mb-3" />
       <p className="mb-2">
