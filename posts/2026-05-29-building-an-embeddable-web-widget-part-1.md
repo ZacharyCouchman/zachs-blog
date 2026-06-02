@@ -82,7 +82,10 @@ export class WebWidget {
 
   /** Use mount to render the WebWidget at a target DOM element */
   mount(targetId?:string) {
-    if(!this.initialised) {console.warn('First call init() to initialise the widget')} return;
+    if(!this.initialised) {
+      console.warn('First call init() to initialise the widget');
+      return;
+    }
     if(this.root) return;
 
     let targetElement = null;
