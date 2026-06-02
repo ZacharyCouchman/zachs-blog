@@ -29,8 +29,8 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
-      <body className="min-h-dvh">
-        <header className="mx-auto max-w-7xl p-6">
+      <body className="min-h-dvh flex flex-col">
+        <header className="mx-auto w-full max-w-7xl p-4 lg:p-6">
           <div className="flex items-center justify-between">
             <ThemedLink
               href="/"

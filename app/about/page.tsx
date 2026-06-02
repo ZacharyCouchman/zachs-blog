@@ -13,7 +13,7 @@ export default async function About() {
         technologies and programming languages. The technologies that I&apos;m most familar with are:
       </p>
 
-      <h2 className="font-semibold text-2xl my-2">Technologies</h2>
+      <h2 className="font-semibold text-2xl mt-6 mb-2">Technologies</h2>
       <h3 className="text-lg font-semibold my-2">Frontend</h3>
       <p className="mb-2">React, Next.js, Typescript, TailwindCSS, Chakra UI</p>
       <h3 className="text-lg font-semibold my-2">Backend</h3>

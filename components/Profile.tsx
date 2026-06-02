@@ -4,7 +4,7 @@ export default async function Profile() {
   const linkedIn = "https://www.linkedin.com/in/zacharycouchman/";
   const github = "https://github.com/ZacharyCouchman";
   return (
-    <aside className="w-full h-20 flex items-center gap-4 lg:py-6 lg:w-64 lg:h-[calc(100vh-100px)] lg:sticky lg:overflow-y-auto lg:top-11 lg:flex-col lg:items-start">
+    <aside className="w-full h-20 flex items-center gap-4 lg:py-6 lg:w-58 lg:h-[calc(100vh-100px)] lg:sticky lg:overflow-y-auto lg:top-11 lg:flex-col lg:items-start">
       <img
         alt="Profile picture"
         src="/img/zach-profile.jpg"

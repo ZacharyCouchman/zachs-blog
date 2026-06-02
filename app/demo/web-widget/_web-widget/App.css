@@ -1,0 +1,37 @@
+.widget {
+  height: 650px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid gray;
+  
+  position: relative;
+  padding: 16px;
+  color: #333333;
+  background-color: #eeeeee;
+
+  @media (prefers-color-scheme: dark) {
+    color: white;
+    background-color: #16171d;
+  }
+  
+  @media (min-width: 430px) {
+    width: 430px;
+  }
+}
+.widget-title{
+  font-size: 24px;
+  font-weight: 600;
+}
+.close {
+  padding: 12px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+}
+.close:hover {
+  cursor: pointer;
+  color: grey;
+}

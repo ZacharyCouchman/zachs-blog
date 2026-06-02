@@ -43,6 +43,16 @@ body {
 }
 
 pre {
-  max-width: 100%;
-  overflow-x: auto;
+  width: inherit;
+  overflow-x: scroll;
 }
+@media screen and (max-width: 1024px) {
+  pre{
+    width: 90dvw;
+  }
+}
+/* pre code.hljs {
+  white-space: pre-wrap;     
+  word-break: break-all;       
+  overflow-wrap: break-word;   
+} */
